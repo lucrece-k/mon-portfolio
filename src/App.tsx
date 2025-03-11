@@ -1,9 +1,12 @@
-import "./styles.scss";
+import Header from "./components/Header";
 function App() {
   return (
     <div>
-      <h1>Bienvenue sur mon Portfolio</h1>
-      <p>En cours de développement...</p>
+      <Header />
+      <div className="accuil">
+        <p>KOUAME Lucrèce</p>
+        <h1>Développeur web - intégrateur</h1>
+      </div>
     </div>
   );
 }
