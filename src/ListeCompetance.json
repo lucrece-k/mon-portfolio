@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "image": "./public/images/react.png",
+    "title": "HTML"
+  },
+  {
+    "id": "2",
+    "image": "./public/images/react.png",
+    "title": "CSS"
+  },
+  {
+    "id": "3",
+    "image": "./public/images/react.png",
+    "title": "SCSS"
+  },
+  {
+    "id": "4",
+    "image": "./public/images/react.png",
+    "title": "JavaScrip"
+  },
+  {
+    "id": "5",
+    "image": "./public/images/react.png",
+    "title": "ReactJS"
+  },
+  {
+    "id": "6",
+    "image": "./public/images/react.png",
+    "title": "git & gitHub"
+  }
+]
