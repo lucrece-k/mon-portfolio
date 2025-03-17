@@ -1,14 +1,13 @@
+import Accueil from "./components/Accueil";
 import Competances from "./components/Competances";
 import Header from "./components/Header";
 import Profil from "./components/Profil";
+import "./styles.scss";
 function App() {
   return (
     <div>
       <Header />
-      <div className="accuil">
-        <p>KOUAME Lucrèce</p>
-        <h1>Développeur web - intégrateur</h1>
-      </div>
+      <Accueil />
       <Profil />
       <Competances />
     </div>

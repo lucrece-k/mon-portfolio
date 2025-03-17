@@ -4,9 +4,9 @@ function Profil() {
     <div className="profil">
       <h1>a propos de moi</h1>
       <div className="profil-contenu">
-        <img src="./public/images/photo-profil.jpg" alt="photo" />
+        {/* <img src="./public/images/photo-profil.jpg" alt="photo" /> */}
         <p>
-          "Salut ! Je m'appelle KOUAME Lucrèce, intégratrice web junior. Pendant
+          "Hello ! Je m'appelle KOUAME Lucrèce, intégratrice web junior. Pendant
           plusieurs années, j’ai exercé en tant que technicienne de laboratoire
           dans le secteur de la chimie, ce qui m’a permis d’acquérir des
           compétences essentielles comme la rigueur, l’organisation et le

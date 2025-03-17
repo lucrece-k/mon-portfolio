@@ -1,0 +1,15 @@
+.accueil {
+  background-image: url("../../../public/images/fond2.webp");
+  //   background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  p {
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+  }
+}

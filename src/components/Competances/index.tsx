@@ -6,8 +6,19 @@ function Competances() {
   return (
     <div className="competances">
       <h1>Compétances</h1>
+      <h2>frontend</h2>
       <ul>
-        {CompetancesData.map((competance) => (
+        {CompetancesData.frontent.map((competance) => (
+          <ListeCompetence
+            key={competance.id}
+            image={competance.image}
+            title={competance.title}
+          />
+        ))}
+      </ul>
+      <h2>Autre</h2>
+      <ul>
+        {CompetancesData.autre.map((competance) => (
           <ListeCompetence
             key={competance.id}
             image={competance.image}

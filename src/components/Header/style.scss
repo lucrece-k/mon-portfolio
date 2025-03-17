@@ -1,6 +1,9 @@
 header {
+  background-image: url("../../../public/images/fond2.webp");
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 
   img {
     width: 128px;
@@ -8,7 +11,7 @@ header {
   }
   nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
     margin-right: 20px;
     li {
