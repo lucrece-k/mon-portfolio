@@ -5,10 +5,10 @@ interface ListeCompetenceProps {
 }
 function ListeCompetence({ image, title }: ListeCompetenceProps) {
   return (
-    <div className="listeCompetence">
+    <li className="listeCompetence">
       <img src={image} alt={title} />
       <h3>{title}</h3>
-    </div>
+    </li>
   );
 }
 export default ListeCompetence;

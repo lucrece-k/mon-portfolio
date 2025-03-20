@@ -2,10 +2,22 @@
   h1 {
     text-align: center;
   }
+  h2 {
+    text-decoration: underline;
+    margin-left: 61px;
+  }
   ul {
     margin-inline: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
+    li {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px black;
+      background-color: #e1ada2;
+    }
   }
 }

@@ -1,17 +1,7 @@
-import Accueil from "./components/Accueil";
-import Competances from "./components/Competances";
-import Header from "./components/Header";
-import Profil from "./components/Profil";
+import Home from "./pages/Home";
 import "./styles.scss";
 function App() {
-  return (
-    <div>
-      <Header />
-      <Accueil />
-      <Profil />
-      <Competances />
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

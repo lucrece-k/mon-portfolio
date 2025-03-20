@@ -31,6 +31,16 @@
       "id": "6",
       "image": "./public/images/react.png",
       "title": "git & gitHub"
+    },
+    {
+      "id": "7",
+      "image": "./public/images/react.png",
+      "title": "node.js"
+    },
+    {
+      "id": "8",
+      "image": "./public/images/react.png",
+      "title": "figma"
     }
   ]
 }
