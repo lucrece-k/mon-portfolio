@@ -2,44 +2,49 @@
   "frontent": [
     {
       "id": "1",
-      "image": "./public/images/react.png",
+      "image": "./public/images/html.webp",
       "title": "HTML"
     },
     {
       "id": "2",
-      "image": "./public/images/react.png",
+      "image": "./public/images/css.webp",
       "title": "CSS"
     },
     {
       "id": "3",
-      "image": "./public/images/react.png",
-      "title": "SCSS"
+      "image": "./public/images/sass.webp",
+      "title": "Sass"
     },
     {
       "id": "4",
-      "image": "./public/images/react.png",
+      "image": "./public/images/javascript.webp",
       "title": "JavaScrip"
     },
     {
       "id": "5",
-      "image": "./public/images/react.png",
+      "image": "./public/images/react.webp",
       "title": "ReactJS"
     }
   ],
   "autre": [
     {
       "id": "6",
-      "image": "./public/images/react.png",
-      "title": "git & gitHub"
+      "image": "./public/images/git.webp",
+      "title": "git"
     },
     {
       "id": "7",
-      "image": "./public/images/react.png",
-      "title": "node.js"
+      "image": "./public/images/github.webp",
+      "title": "gitHub"
     },
     {
       "id": "8",
-      "image": "./public/images/react.png",
+      "image": "./public/images/nodejs.webp",
+      "title": "node.js"
+    },
+    {
+      "id": "9",
+      "image": "./public/images/figma.webp",
       "title": "figma"
     }
   ]
