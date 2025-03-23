@@ -6,18 +6,25 @@
     text-decoration: underline;
     margin-left: 61px;
   }
+  img {
+    object-fit: contain;
+  }
   ul {
     margin-inline: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #e1ada2;
+    border-radius: 10px;
+    padding: 30px 138px;
+    margin: 0;
     li {
-      border: none;
-      border-radius: 20px;
-      box-shadow: 5px 5px 5px black;
-      background-color: #e1ada2;
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+      border-bottom: 2px solid;
     }
   }
 }

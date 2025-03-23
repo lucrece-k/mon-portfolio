@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "image": "./public/images/Booki.webp",
+    "title": "Booki",
+    "description": "bghffhkjnjgyguihn,nkij,,khuhij,;,knhk,"
+  },
+  {
+    "id": "2",
+    "image": "./public/images/Kasa.webp",
+    "title": "Kasa",
+    "description": "bghffhkjnjgyguihn,nkij,,khuhij,;,knhk,"
+  },
+  {
+    "id": "3",
+    "image": "./public/images/ArgentBank.webp",
+    "title": "ArgentBank",
+    "description": "bghffhkjnjgyguihn,nkij,,khuhij,;,knhk,"
+  }
+]
