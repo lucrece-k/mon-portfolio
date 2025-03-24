@@ -1,7 +1,7 @@
 import "./style.scss";
 function Accueil() {
   return (
-    <div className="accueil">
+    <div className="accueil" id="accueil">
       <p>KOUAME Lucrèce</p>
       <h1>Développeur web - intégrateur</h1>
     </div>

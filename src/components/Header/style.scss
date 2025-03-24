@@ -2,7 +2,7 @@ header {
   background-image: url("../../../public/images/fond2.webp");
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  // position: fixed;
   width: 100%;
 
   img {
@@ -18,6 +18,10 @@ header {
     li {
       color: black;
       list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      color: black;
     }
   }
 }

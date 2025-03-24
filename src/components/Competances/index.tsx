@@ -4,7 +4,7 @@ import "./style.scss";
 
 function Competances() {
   return (
-    <div className="competances">
+    <div className="competances" id="competances">
       <h1>Compétances</h1>
       <h2>frontend</h2>
       <ul>

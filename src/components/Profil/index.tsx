@@ -1,10 +1,9 @@
 import "./style.scss";
 function Profil() {
   return (
-    <div className="profil">
+    <div className="profil" id="profil">
       <h1>a propos de moi</h1>
       <div className="profil-contenu">
-        {/* <img src="./public/images/photo-profil.jpg" alt="photo" /> */}
         <p>
           "Hello ! Je m'appelle KOUAME Lucrèce, intégratrice web junior. Pendant
           plusieurs années, j’ai exercé en tant que technicienne de laboratoire

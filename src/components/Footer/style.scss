@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1ada2;
+  margin-top: 30px;
+  h1 {
+    position: relative;
+  }
+  button {
+    position: absolute;
+    margin-left: 1168px;
+    width: 3%;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+    a {
+      text-decoration: none;
+    }
+  }
+}
