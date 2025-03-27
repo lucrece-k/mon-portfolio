@@ -12,6 +12,7 @@ export default function Projets() {
             image={projet.image}
             title={projet.title}
             description={projet.description}
+            lien={projet.lien}
           />
         ))}
       </ul>

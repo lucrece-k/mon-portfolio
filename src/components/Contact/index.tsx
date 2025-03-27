@@ -2,7 +2,7 @@ import "./style.scss";
 export default function Contact() {
   return (
     <div className="contact" id="contact">
-      <h1>Contact</h1>
+      <h1>Contactez-moi</h1>
 
       <form action="">
         <div className="contact-input">

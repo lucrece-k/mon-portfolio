@@ -8,4 +8,15 @@
     height: 200px;
     object-fit: contain;
   }
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b0f2b6;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
