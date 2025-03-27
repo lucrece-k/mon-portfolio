@@ -3,18 +3,15 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <h1>Contactez-moi</h1>
-
-      <form action="">
-        <div className="contact-input">
-          <label htmlFor="nom">Nom</label>
-          <input type="text" />
-          <label htmlFor="prenom">Prenom</label>
-          <input type="text" />
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-        </div>
-        <button>Envoyer</button>
-      </form>
+      <div className="contact_contente">
+        Vous avez une opportunité à me proposer ou simplement une question ?
+        N’hésitez pas à me contacter ! Je serais ravie d’échanger avec vous.
+        Cliquez sur le bouton ci-dessous pour m’envoyer un email, et je vous
+        répondrai dans les plus brefs délais.
+        <a href="mailto:kouamelucrece@gmail.com">
+          <button>Envoyer</button>
+        </a>
+      </div>
     </div>
   );
 }

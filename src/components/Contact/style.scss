@@ -6,7 +6,7 @@
   border: 2px solid #e1ada2;
   border-radius: 10px;
 
-  form {
+  &_contente {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,22 +16,9 @@
     padding: 40px;
     background-color: #e1ada2;
     margin-bottom: 30px;
-    input {
-      height: 30px;
-      border: none;
-    }
-    textarea {
-      height: 87px;
-    }
-    .contact-input {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-    }
+
     button {
       text-align: center;
-      width: 20%;
       border: none;
       background-color: white;
       padding: 10px;
