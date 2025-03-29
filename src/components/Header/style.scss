@@ -1,9 +1,7 @@
 header {
-  background-image: url("../../../public/images/fond2.webp");
+  background-image: url("/images/fond2.webp");
   display: flex;
   justify-content: space-between;
-  // position: fixed;
-  width: 100%;
 
   img {
     width: 128px;
@@ -11,17 +9,37 @@ header {
   }
   nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
     margin-right: 20px;
-    margin-top: 5px;
+    margin-bottom: 10px;
     li {
       color: black;
       list-style-type: none;
     }
     a {
       text-decoration: none;
-      color: black;
+      color: white;
+      margin-inline: 16px;
+    }
+    & :hover {
+      // border-bottom: 2px solid white;
+      text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    nav {
+      margin-left: 20px;
+      a {
+        margin: 0;
+      }
     }
   }
 }

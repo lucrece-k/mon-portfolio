@@ -4,7 +4,7 @@ import ListeProjet from "../ListeProjet";
 export default function Projets() {
   return (
     <div className="projets" id="projets">
-      <h1>projets</h1>
+      <h1>Portfolio</h1>
       <ul>
         {ProjetsData.map((projet) => (
           <ListeProjet

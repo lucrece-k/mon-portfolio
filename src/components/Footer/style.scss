@@ -1,23 +1,44 @@
 .footer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #e1ada2;
-  margin-top: 30px;
   padding: 20px;
-  h1 {
+  border-radius: 10px 10px 0 0;
+  p {
     position: relative;
   }
   button {
     position: absolute;
-    margin-left: 1168px;
-    width: 3%;
-    border: none;
-    border-radius: 4px;
+    background-color: #e1ada2;
+    border-color: rgb(229, 101, 122);
+    font-weight: bold;
     padding: 10px;
-    background-color: white;
+    top: 12px;
+    right: 15px;
     a {
       text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .footer {
+    button {
+      margin-left: 683px;
+      // margin-top: 38px;
+    }
+    p {
+      text-align: center;
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    button {
+      display: none;
     }
   }
 }

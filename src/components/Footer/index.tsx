@@ -5,7 +5,7 @@ export default function Footer() {
       <p>© Copyright 2025 - Lucrèce KOUAME. Tous droits réservés.</p>
 
       <button>
-        <a href="#header">^ </a>
+        <a href="#header">TOP</a>
       </button>
     </footer>
   );
