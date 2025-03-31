@@ -5,17 +5,21 @@
   align-items: center;
   border: 2px solid #e1ada2;
   border-radius: 10px;
-
+  h1 {
+    font-family: Montserrat, sans-serif;
+  }
   &_contente {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    width: 30%;
+    gap: 37px;
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
     background-color: #e1ada2;
     margin-bottom: 30px;
     margin-inline: 100px;
+    font-family: Roboto, sans-serif;
 
     button {
       text-align: center;
@@ -23,6 +27,7 @@
       background-color: white;
       padding: 10px;
       border-radius: 4px;
+      font-family: Roboto, sans-serif;
     }
   }
 }
@@ -31,6 +36,7 @@
     &_contente {
       margin-inline: 10px;
       padding: 30px;
+      width: 80%;
     }
   }
 }

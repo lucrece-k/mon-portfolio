@@ -1,5 +1,5 @@
 import Accueil from "../../components/Accueil";
-import Competances from "../../components/Competances";
+import Competences from "../../components/Competences";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <Accueil />
       <Profil />
-      <Competances />
+      <Competences />
       <Projets />
       <Contact />
       <Footer />

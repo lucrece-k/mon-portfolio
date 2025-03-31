@@ -1,12 +1,14 @@
-.competances {
+.competences {
   border: 2px solid #e1ada2;
   border-radius: 10px;
   h1 {
     text-align: center;
+    font-family: Montserrat, sans-serif;
   }
   h2 {
     text-decoration: underline;
     margin-left: 61px;
+    font-family: Montserrat, sans-serif;
   }
   img {
     object-fit: contain;
@@ -29,7 +31,7 @@
   }
 }
 @media (max-width: 767px) {
-  .competances {
+  .competences {
     h2 {
       margin-left: 25px;
     }
