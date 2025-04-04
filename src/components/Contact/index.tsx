@@ -8,9 +8,7 @@ export default function Contact() {
         N’hésitez pas à me contacter ! Je serais ravie d’échanger avec vous.
         Cliquez sur le bouton ci-dessous pour m’envoyer un email, et je vous
         répondrai dans les plus brefs délais.
-        <a href="mailto:kouamelucrece@gmail.com">
-          <button>Envoyer</button>
-        </a>
+        <a href="mailto:kouamelucrece@gmail.com">Envoyer</a>
       </div>
     </div>
   );

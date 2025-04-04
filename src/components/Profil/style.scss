@@ -13,7 +13,26 @@
   }
 
   p {
-    padding: 40px;
     font-family: Roboto, sans-serif;
+    text-align: justify;
+    line-height: 30px;
+    padding-inline: 243px;
+    font-weight: 400;
+    font-size: large;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .profil {
+    P {
+      padding-inline: 20px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .profil {
+    p {
+      padding: 0;
+    }
   }
 }

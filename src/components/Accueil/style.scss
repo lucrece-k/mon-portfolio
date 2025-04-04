@@ -9,13 +9,14 @@
   p {
     margin: 0;
     font-family: Montserrat, sans-serif;
+    font-size: large;
   }
   h1 {
     margin: 0;
     font-family: Montserrat, sans-serif;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   h1 {
     text-align: center;
   }

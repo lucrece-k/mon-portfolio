@@ -20,14 +20,25 @@
     margin-bottom: 30px;
     margin-inline: 100px;
     font-family: Roboto, sans-serif;
+    text-align: justify;
+    line-height: 30px;
 
-    button {
+    a {
+      text-decoration: none;
+      color: black;
       text-align: center;
-      border: none;
       background-color: white;
       padding: 10px;
       border-radius: 4px;
       font-family: Roboto, sans-serif;
+      box-shadow: 2px 5px 10px rgb(229, 101, 122);
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .contact {
+    &_contente {
+      width: 50%;
     }
   }
 }

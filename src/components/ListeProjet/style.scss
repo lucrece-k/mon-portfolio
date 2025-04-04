@@ -10,23 +10,21 @@
   }
   h3 {
     font-family: Roboto, sans-serif;
+    font-weight: 400;
   }
 
   p {
     margin-inline: 10px;
     font-family: Roboto, sans-serif;
+    text-align: justify;
   }
 
-  button {
-    border: none;
+  a {
     padding: 10px;
     border-radius: 10px;
     background-color: #b0f2b6;
-
-    a {
-      text-decoration: none;
-      color: black;
-      font-family: Roboto, sans-serif;
-    }
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
   }
 }

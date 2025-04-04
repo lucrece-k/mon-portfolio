@@ -4,9 +4,7 @@ export default function Footer() {
     <footer className="footer">
       <p>© Copyright 2025 - Lucrèce KOUAME. Tous droits réservés.</p>
 
-      <button>
-        <a href="#header">TOP</a>
-      </button>
+      <a href="#header">TOP</a>
     </footer>
   );
 }

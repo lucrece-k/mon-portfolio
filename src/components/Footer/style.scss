@@ -10,19 +10,18 @@
     position: relative;
     font-family: Montserrat, sans-serif;
   }
-  button {
+  a {
     position: absolute;
     background-color: #e1ada2;
-    border-color: rgb(229, 101, 122);
+    border: 2px solid rgb(229, 101, 122);
+    box-shadow: 2px 5px 10px rgb(229, 101, 122);
     font-weight: bold;
     padding: 10px;
     top: 12px;
     right: 15px;
-    a {
-      text-decoration: none;
-      color: #fff;
-      font-family: Montserrat, sans-serif;
-    }
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
   }
 }
 @media (max-width: 1024px) {
@@ -38,7 +37,7 @@
 }
 @media (max-width: 767px) {
   .footer {
-    button {
+    a {
       display: none;
     }
   }

@@ -22,9 +22,10 @@ header {
       text-decoration: none;
       color: white;
       margin-inline: 16px;
+      font-size: medium;
+      font-weight: 600;
     }
     & :hover {
-      // border-bottom: 2px solid white;
       text-decoration: underline;
     }
   }
@@ -40,6 +41,7 @@ header {
       margin-left: 20px;
       a {
         margin: 0;
+        font-size: small;
       }
     }
   }
