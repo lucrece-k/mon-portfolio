@@ -1,4 +1,4 @@
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo.webp";
 import "../Header/style.scss";
 function Header() {
   return (
@@ -12,7 +12,7 @@ function Header() {
           <a href="#profil">Profil</a>
         </li>
         <li>
-          <a href="#competances">Compétences</a>
+          <a href="#competences">Compétences</a>
         </li>
         <li>
           <a href="#projets">Projets</a>
