@@ -4,7 +4,7 @@
     "image": "./images/Booki.webp",
     "title": "Booki",
     "description": "Page d'accueil d'une agence de voyage",
-    "technologie": "(HTML et CSS).",
+    "technologie": "(HTML et CSS)",
     "lien": "https://lucrece-k.github.io/Booki/"
   },
   {
@@ -12,7 +12,7 @@
     "image": "./images/Kasa.webp",
     "title": "Kasa",
     "description": "Une entreprise de location d’appartements entre particuliers",
-    "technologie": "(React, Sass).",
+    "technologie": "(React, Sass)",
     "lien": "https://lucrece-k.github.io/kasa/"
   },
   {
@@ -20,7 +20,7 @@
     "image": "./images/ArgentBank.webp",
     "title": "ArgentBank",
     "description": "Argent Bank banque en ligne",
-    "technologie": "(React, Redux, API REST).",
+    "technologie": "(React, Redux, API REST)",
     "lien": "https://github.com/lucrece-k/ArgentBank.git"
   }
 ]

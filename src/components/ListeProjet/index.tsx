@@ -17,10 +17,9 @@ export default function ListeProjet({
     <li className="ListeProjet">
       <img src={image} alt={title} />
       <h3>{title}</h3>
-      <p>
-        {description}
-        <strong>{technologie}</strong>
-      </p>
+      <p>{description}</p>
+      <br />
+      <strong> {technologie} </strong>
       <a href={lien}>Lien vers le projet</a>
     </li>
   );
