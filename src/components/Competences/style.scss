@@ -13,23 +13,27 @@
   img {
     object-fit: contain;
   }
-  ul {
-    margin-inline: 20px;
+  &-content {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 30px 138px;
-    margin: 0;
-    li {
+    &-frontend,
+    &-autre {
+      margin-inline: 20px;
       display: flex;
-      flex-direction: row-reverse;
-      width: 100%;
-      border-bottom: 2px solid;
+      flex-direction: column;
+      gap: 30px;
+      align-items: flex-start;
+      padding: 30px 138px;
+      margin: 0;
+      li {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        border-bottom: 2px solid;
+      }
     }
   }
 }
+
 @media (max-width: 767px) {
   .competences {
     h2 {
@@ -37,6 +41,10 @@
     }
     ul {
       padding: 20px;
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
     }
   }
 }

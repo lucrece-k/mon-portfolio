@@ -2,7 +2,7 @@ import "./style.scss";
 function Profil() {
   return (
     <div className="profil" id="profil">
-      <h1>a propos de moi</h1>
+      <h1>A propos de moi</h1>
       <div className="profil-contenu">
         <p>
           "Hello ! Je m'appelle KOUAME Lucrèce, intégratrice web junior. Pendant
