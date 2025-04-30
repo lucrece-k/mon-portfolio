@@ -11,7 +11,7 @@
     "id": "2",
     "image": "./images/Kasa.webp",
     "title": "Kasa",
-    "description": "Une entreprise de location d’appartements entre particuliers",
+    "description": "Une entreprise de location d'appartements entre particuliers",
     "technologie": "(React, Sass)",
     "lien": "https://lucrece-k.github.io/kasa/"
   },
